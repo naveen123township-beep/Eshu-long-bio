@@ -1,14 +1,14 @@
 {
   "builds": [
     {
-      "src": "Flash.py",
+      "src": "eshu.py",
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "Flash.py"
+      "dest": "eshu.py"
     }
   ]
 }
